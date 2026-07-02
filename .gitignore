@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Supabase local dev
+supabase/.branches
+supabase/.temp
