@@ -2,8 +2,11 @@
   "name": "rotation",
   "version": "1.0.0",
   "description": "Rotation — React + Supabase app for running recurring friend-group clubs",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,7 +17,16 @@
   "author": "",
   "license": "ISC",
   "private": "true",
+  "dependencies": {
+    "lucide-react": "^0.525.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
   "devDependencies": {
-    "supabase": "^2.109.0"
+    "@tailwindcss/vite": "^4.1.11",
+    "@vitejs/plugin-react": "^4.6.0",
+    "supabase": "^2.109.0",
+    "tailwindcss": "^4.1.11",
+    "vite": "^6.3.5"
   }
 }
